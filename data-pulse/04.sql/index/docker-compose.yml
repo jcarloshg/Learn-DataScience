@@ -10,6 +10,8 @@ services:
       - "5432:5432"
     volumes:
       - ./data:/var/lib/postgresql/data
+      - ./1.schema.sql:/docker-entrypoint-initdb.d/1.schema.sql:ro
+      - ./2.inser-data.sql:/docker-entrypoint-initdb.d/2.inser-data.sql:ro
 
 volumes:
   movies_data:
