@@ -30,4 +30,5 @@ stack-data==0.6.3
 tornado==6.5.7
 traitlets==5.15.1
 typing_extensions==4.16.0
+psycopg2-binary==2.9.10
 wcwidth==0.8.2
