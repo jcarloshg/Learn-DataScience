@@ -1,0 +1,15 @@
+services:
+  movies:
+    image: postgres:16
+    container_name: movies_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: movies
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data
+
+volumes:
+  movies_data:
