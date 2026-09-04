@@ -1,0 +1,2 @@
+- https://neon.com/postgresql/getting-started/sample-database
+  - https://neon.com/postgresqltutorial/printable-postgresql-sample-database-diagram.pdf
