@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "jcarloshg"
-    ]
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:pyenv"
 }
